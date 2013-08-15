@@ -164,7 +164,7 @@
         It will not be rotated or scaled.
         
     -->
-    <div id="bored" class="step slide" data-x="-1500" data-y="-1500">
+    <div id="start-here" class="step slide" data-x="-1500" data-y="-1500">
         <q>Hi! <b>Anna Mendoza</b> here. <br>I'm a product designer / art director working as a front end developer.
           These days I'm building interfaces, writing code and designing assets for online and offline products.</q>
     </div>
@@ -173,7 +173,7 @@
         
         The `id` attribute of the step element is used to identify it in the URL, but it's optional.
         If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-        
+                                                start_here
         So in the example below it'll be `step-2`.
         
         The hash part of the url when this step is active will be `#/step-2`.
@@ -268,7 +268,7 @@
     <div id="imagination" class="step small" data-x="6700" data-y="-300" data-scale="6">
       <p>I've worked with <b>Ruby and RoR</b><br> to balance my front-end expertise with the
         <br><b class="imagination"> back-end</b><br>
-        <span class="tiny">Did I mention, I'm the organizer for the<br>
+        <span class="tiny">Did I mention, I'm one of the organizers for the<br>
         <a href="http://www.meetup.com/Los-Angeles-Womens-Ruby-on-Rails-Group/">LA Women's Ruby on Rails Study Group?</a></span>  
         </p>
     </div>
@@ -417,7 +417,7 @@
     When the presentation step is shown (selected) its element gets the class of "active" and the body element
     gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
     so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
-    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    the id of `start_here`) is active, body element gets a class of `impress-on-start_here`.
     
     This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
     the first step of presentation is visible for a couple of seconds.
