@@ -50,6 +50,45 @@ q span.black {
     font-weight: 600;
 }
 
+q img.wide {
+    width: 100%;
+    margin: 10px 0;
+    border: 0;
+}
+
+.bevel {
+    width: 100%;
+    background-color: #fff;
+    height: 150px;
+    background: url(http://s3.amazonaws.com/assets-prod.bevelspecs.com/product_colors/image_fronts/4952/w_800/Amelia_ORBM_F_3326-2928px_x_1300px.png?1564464528);
+    background-size: 65%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-color: #d7e100;
+}
+
+.united {
+    width: 100%;
+    background-color: #fff;
+    height: 150px;
+    background: url(https://unitedwestaycom-staging.herokuapp.com/assets/heroes/profile_hero_shots_movement-fefcf517dd3d89bfb593f70914d3a908.png);
+    background-size: 75%;
+    background-position: center 32%;
+    background-repeat: no-repeat;
+    background-color: #bc1b7c;
+}
+
+.wag {
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80);
+    background-size: 57%;
+    background-position: center 32%;
+    background-repeat: no-repeat;
+    background-color: #c80e16;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -75,12 +114,12 @@ h2 {
 
 p.slides {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: .01em;
 }
 
 p.slides.thin {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
     letter-spacing: .01em;
 }
