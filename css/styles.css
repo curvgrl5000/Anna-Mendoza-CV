@@ -30,6 +30,7 @@ h1.initial_title {
     height: 84px;
 }
 
+
 .initial_title span {
     color: #C1C3C9;
 }
@@ -69,6 +70,12 @@ img {
   height: 137px;
   background-image: url(../images/CoolBeansBkgrnd_cropped.svg);
   background-size: 272px 177px;
+}
+
+.shoppingBkgnd {
+	background-color: #475B8D !important;
+  width: 200px;
+  height: 137px;
 }
 
 .column_item {
@@ -138,3 +145,99 @@ img {
 .greyBknd {
 	  background: rgb(250, 250, 250);
 }
+
+
+/* ==================ANIMATED CHARACTER STYLING==================*/
+.content {
+  font: 800 10em/1  'Open Sans', Helvetica
+}
+
+.text {
+  fill: none;
+  stroke-width: 10;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear; 
+  }
+  
+  .text:nth-child(5n + 1) {
+    stroke: #E95032;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s; 
+  }
+  .text:nth-child(5n + 2) {
+    stroke: #FDC86F;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s; 
+  }
+  .text:nth-child(5n + 3) {
+    stroke: #A5D9DC;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s; 
+  }
+  .text:nth-child(5n + 4) {
+    stroke: #65C9D3;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s; 
+  }
+  .text:nth-child(5n + 5) {
+    stroke: #1FAAAF;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s; 
+  }
+
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+
+svg {
+    width: 40%;
+    margin: 0px auto 0px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.shopping_list svg {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	left: 5px;
+	pointer-events: none;
+}
+
+.shopping_list svg path {
+	stroke: #fdfcd3;
+      stroke: #FF8B00;
+	stroke-width: 13px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+}
+
+.shopping_list svg {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 50%;
+    margin-top: -15px;
+    left: 5px;
+    pointer-events: none;
+}
+
+.shopping_list svg {
+  stroke: #ffff;
+  stroke-width: 13px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+
