@@ -1,6 +1,6 @@
 Anna Mendoza's Résumé
 =====================
-Latest and greatest samples to showcase what I'm working on!
+Latest and greatest samples showcasing what I'm working on!
 Lots of JS, NODE and the familiar Rails framework. 
 
 WRITE NOW
