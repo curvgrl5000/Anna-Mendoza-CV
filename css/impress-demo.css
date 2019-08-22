@@ -61,8 +61,8 @@ q img.wide {
     background-color: #fff;
     height: 150px;
     background: url(http://s3.amazonaws.com/assets-prod.bevelspecs.com/product_colors/image_fronts/4952/w_800/Amelia_ORBM_F_3326-2928px_x_1300px.png?1564464528);
-    background-size: 65%;
-    background-position: center 40%;
+    background-size: 50%;
+    background-position: center 100%;
     background-repeat: no-repeat;
     background-color: #d7e100;
 }
