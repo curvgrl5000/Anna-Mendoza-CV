@@ -78,15 +78,30 @@ q img.wide {
     background-color: #bc1b7c;
 }
 
+.excl {
+    width: 100%;
+    background-color: #fff;
+    height: 200px;
+    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80);
+    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80) right 54% / 87% no-repeat rgb(200, 14, 22);
+    background-size: 57%;
+    background-position: center 32%;
+    background-repeat: no-repeat;
+    background-color: #c80e16;
+
+}
+
 .wag {
     width: 100%;
     background-color: #fff;
     height: 200px;
     background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80);
+    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80) right 54% / 87% no-repeat rgb(200, 14, 22);
     background-size: 57%;
     background-position: center 32%;
     background-repeat: no-repeat;
     background-color: #c80e16;
+
 }
 
 table {
@@ -164,8 +179,8 @@ a:focus {
 
 q a:hover, a:focus {
     background: transparent;
-    text-shadow: -2px 1px 2px rgba(168, 168, 168, 0.71);
-    color: rgb(233, 80, 30);
+    text-shadow: -2px 1px 2px rgba(168, 168, 168, 0.51);
+    color: #ff5722;
 }
 
 .fallback-message {
