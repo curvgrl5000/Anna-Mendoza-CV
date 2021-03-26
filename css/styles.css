@@ -71,7 +71,7 @@ img {
     transition: box-shadow 1.3s cubic-bezier(0.2, 0.6, 0.4, 1) 0s;
 }
 
-img.wide:hover {
+img.wide:hover, div.wide:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 15px 0px;
     cursor: pointer;
     transition: box-shadow 1.3s cubic-bezier(0.2, 0.6, 0.4, 1) 0s;
@@ -103,7 +103,6 @@ img.wide:hover {
   background-size: 75%;
   background-position: 45% 30%;
   background-repeat: no-repeat;
-
 }
 
 .coolBeans {

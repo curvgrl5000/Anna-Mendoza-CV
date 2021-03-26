@@ -50,7 +50,7 @@ q span.black {
     font-weight: 600;
 }
 
-q img.wide {
+q img.wide, q div.wide {
     width: 100%;
     margin: 10px 0;
     border: 0;
@@ -60,7 +60,7 @@ q img.wide {
     width: 100%;
     background-color: #fff;
     height: 150px;
-    background: url(http://s3.amazonaws.com/assets-prod.bevelspecs.com/product_colors/image_fronts/4952/w_800/Amelia_ORBM_F_3326-2928px_x_1300px.png?1564464528);
+    background: url('http://s3.amazonaws.com/assets-prod.bevelspecs.com/product_colors/image_fronts/4952/w_800/Amelia_ORBM_F_3326-2928px_x_1300px.png?1564464528');
     background-size: 50%;
     background-position: center 100%;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ q img.wide {
     width: 100%;
     background-color: #fff;
     height: 150px;
-    background: url(https://unitedwestaycom-staging.herokuapp.com/assets/heroes/profile_hero_shots_movement-fefcf517dd3d89bfb593f70914d3a908.png);
+    background: url('https://unitedwestaycom-staging.herokuapp.com/assets/heroes/profile_hero_shots_movement-fefcf517dd3d89bfb593f70914d3a908.png');
     background-size: 75%;
     background-position: center 32%;
     background-repeat: no-repeat;
@@ -87,24 +87,18 @@ q img.wide {
     background-repeat: no-repeat;
     opacity: .8;
     border-top: 10px solid #fed921;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #excl::before {
-background-color: #0050a6;
+    background-color: #0050a6;
     content: "";
     display: block;
     width: 100%;
-    height: 160px;
+    height: 150px;
     mix-blend-mode: hard-light;
-}
-
-#excl::after {
-  background-color: transparent;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 160px;
-  mix-blend-mode: lighten;
 }
 
 .wag {
