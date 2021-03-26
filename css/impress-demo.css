@@ -46,7 +46,7 @@ q span{
 }
 
 q span.black {
-    color: #191918;
+    color: #9c9c9c;
     font-weight: 600;
 }
 
@@ -78,17 +78,33 @@ q img.wide {
     background-color: #bc1b7c;
 }
 
-.excl {
+#excl {
     width: 100%;
-    background-color: #fff;
-    height: 200px;
-    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80);
-    background: url(https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-0.3.5…HBfaWQiOjEyMDd9&amp;s=63de746…&amp;w=1000&amp;q=80) right 54% / 87% no-repeat rgb(200, 14, 22);
-    background-size: 57%;
-    background-position: center 32%;
+    height: 160px;
+    background: url('https://images.squarespace-cdn.com/content/v1/5f850b084364f270630c3da2/1602554659794-FEEDGVQHNP8LR96K4ZSE/ke17ZwdGBToddI8pDm48kD_oGUSWuRp2jXjuKEQV3nl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaaGu5C6er8w8BNVEuqqdDHgJcM47wyS8Wc3GmL3INRFrw/image-asset.jpeg');
+    background-size: cover;
+    background-position: center 50%;
     background-repeat: no-repeat;
-    background-color: #c80e16;
+    opacity: .8;
+    border-top: 10px solid #fed921;
+}
 
+#excl::before {
+background-color: #0050a6;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 160px;
+    mix-blend-mode: hard-light;
+}
+
+#excl::after {
+  background-color: transparent;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 160px;
+  mix-blend-mode: lighten;
 }
 
 .wag {
