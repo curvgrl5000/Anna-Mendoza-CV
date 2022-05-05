@@ -175,7 +175,7 @@ a {
     letter-spacing: 0.05rem;
 }
 
-q a {
+q a, q span.highlight {
     color: rgb(246, 153, 55);
 }
 
